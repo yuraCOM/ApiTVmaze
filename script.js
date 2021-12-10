@@ -9,7 +9,7 @@ let requestUrl
 mySend.onclick = function (){
     dataWrapper.innerHTML = ""
     z = myWord.value
-    requestUrl = `http://api.tvmaze.com/search/shows?q=${z}`
+    requestUrl = `https://api.tvmaze.com/search/shows?q=${z}`
     console.log(myWord.value)
 
     fetch(requestUrl)
